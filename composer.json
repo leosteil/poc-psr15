@@ -1,0 +1,22 @@
+{
+    "name": "leonardo.steil/poc",
+    "authors": [
+        {
+            "name": "leosteil",
+            "email": "leonardo.steil@objective.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/psr7": "^2.4",
+        "laminas/laminas-httphandlerrunner": "^2.1",
+        "laminas/laminas-diactoros": "^2.13",
+        "laminas/laminas-stratigility": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "POC\\": "src/",
+            "App\\": "app/"
+        }
+    }
+}
